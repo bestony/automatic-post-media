@@ -19,7 +19,6 @@ include( plugin_dir_path( __FILE__ ) . 'options.php');
 function apm_custom_upload($file){
     $options = get_option( 'apm_settings' );
     $path_parts = pathinfo($file['file']);
-
     switch ($options['apm_select_title']) {
       case '1':
         $title = wp_strip_all_tags(sprintf('[%s]%s',$path_parts['extension'],$path_parts['filename']));
@@ -35,7 +34,7 @@ function apm_custom_upload($file){
         break;
     }
     $content = sprintf(str_replace('[url]','%s',$options['apm_textarea_content']),$file['url']);
-    $content = sprintf(str_replace('[name]','%s',$options['apm_textarea_content']),$path_parts['filename']);
+    $content = sprintf(str_replace('[name]','%s',$content),$path_parts['filename']);
     $my_post = array(
       'post_title'    => $title,
       'post_content'  => $content,
