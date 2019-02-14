@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Automatic Post Media\n"
+"POT-Creation-Date: 2019-02-14 20:32+0800\n"
+"PO-Revision-Date: 2019-02-14 20:32+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: automatic-post-media.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: options.php:8 options.php:135
+msgid "Automatic Post Media"
+msgstr "媒体文件自动发布文章"
+
+#: options.php:19
+msgid "Change Automatic Post Options"
+msgstr "更改自动发布选项"
+
+#: options.php:27
+msgid "Choose Author"
+msgstr "选择自动发布时的作者"
+
+#: options.php:35
+msgid "Choose Category"
+msgstr "选择自动发布的目录"
+
+#: options.php:43
+msgid "Choose Title Style"
+msgstr "选择文章标题的规则"
+
+#: options.php:51
+msgid "Automatic Post Content"
+msgstr "自动发布的内容"
+
+#: options.php:125
+msgid "Automatic Post Media Can Post Media into Post"
+msgstr ""
+"媒体文件自动发布文章插件能够帮助你自动将你上传的文件发布为单独的文章。"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpstore.app/archives/automatic-post-media/"
+msgstr "https://wpstore.app/archives/automatic-post-media/"
+
+#. Description of the plugin/theme
+msgid "Automatic Post Media as a Post"
+msgstr "自动将媒体文件发布为文章"
+
+#. Author of the plugin/theme
+msgid "Bestony"
+msgstr "Bestony（白宦成）"
+
+#. Author URI of the plugin/theme
+msgid "https://wpstore.app/"
+msgstr "https://wpstore.app/"
