@@ -7,7 +7,7 @@
  * Author:      Bestony
  * Author URI:  https://wpstore.app/
  * License:     GPL3
- * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain: automatic-post-media
  * Domain Path: /languages
  */
