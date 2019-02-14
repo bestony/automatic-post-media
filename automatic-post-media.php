@@ -30,8 +30,11 @@ function apm_custom_upload($file){
         $title = wp_strip_all_tags($path_parts['filename']);
         break;
       default:
-        $title = 'ERROR';
+        $title = $path_parts['basename'];
         break;
+    }
+    if (!$options['apm_textarea_content']){
+      $options['apm_select_author'] = "<a href='[url]'>[name]</a>";
     }
     $content = sprintf(str_replace('[url]','%s',$options['apm_textarea_content']),$file['url']);
     $content = sprintf(str_replace('[name]','%s',$content),$path_parts['filename']);
@@ -39,8 +42,8 @@ function apm_custom_upload($file){
       'post_title'    => $title,
       'post_content'  => $content,
       'post_status'   => 'publish',
-      'post_author'   => $options['apm_select_author'],
-      'post_category' => array($options['apm_select_category'])
+      'post_author'   => $options['apm_select_author']?$options['apm_select_author']:1,
+      'post_category' => array($options['apm_select_category']?$options['apm_select_category']:1)
     );
     wp_insert_post( $my_post );
 }
